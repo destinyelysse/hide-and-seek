@@ -1,0 +1,14 @@
+{
+  "name": "hide-and-seek",
+  "version": "1.0.0",
+  "description": "Hide and seek is a game of clicking on spots and seeing what is under them. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Destiny Serna",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
