@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Montserrat:wght@100;200&display=swap');
+
+body {
+    background-color: #242526;
+    margin: 0px;
+    font-size: 36px;
+}
+
+header {
+    background-color: #7de7f5;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 5px;
+}
+
+.instructions-title {
+    color: #7de7f5;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.instructions-table {
+    color: #7de7f5;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    margin: 0px auto;
+    width: 500px;
+}
+
+.instruction-number {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.instruction-text {
+    text-align: left;
+}
+
+.spot-row {
+    text-align: center;
+}
+
+.spot {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.start-row {
+    text-align: center;
+}
+.start-button {
+    background-color: #7de7f5;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border: 1px solid #7de7f5;
+    border-radius: 5px;
+}
+

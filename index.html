@@ -2,10 +2,42 @@
 <html lang='en'>
     <head>
         <title>Hide and Seek</title>
-        <link href="./styles.css" type="text/css" rel="stylesheet">
+        <link href="./styles/styles.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="./scripts/script.js" defer></script>
     </head>
     <body>
-        
+        <header>
+            <p>DORY HIDE AND SEEK</p>
+        </header>
+        <div class="instructions">
+            <p class="instructions-title">Instructions</p>
+            <table class="instructions-table">
+                <tr>
+                    <td class="instruction-number">1</td>
+                    <td class="instruction-text">Click the tiles to see what kind of Dory is hiding under the tile.</td>
+                </tr>
+                <tr>
+                    <td class="instruction-number">2</td>
+                    <td class="instruction-text">If you find pizza Dory, you win!</td>
+                </tr>
+                <tr>
+                    <td class="instruction-number">3</td>
+                    <td class="instruction-text">If you find Dory on a scratcher, you lose.</td>
+                </tr>
+                <tr>
+                    <td class="instruction-number">4</td>
+                    <td class="instruction-text">Have fun!</td>
+                </tr>
+            </table>
+        </div>
+        <div class="spot-row">
+            <img id="spot1" class="spot" src="./images/spot.png" alt="spot one"/>
+            <img id="spot2" class="spot" src="./images/spot.png" alt="spot two"/>
+            <img id="spot3" class="spot" src="./images/spot.png" alt="spot three"/>
+        </div>
+        <div class="start-row">
+            <button class="start-button">START GAME</button>
+        </div>
     </body>
     </html>
 </html>
