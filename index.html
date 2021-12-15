@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <title>Hide and Seek</title>
-        <link href="./styles/styles.css" type="text/css" rel="stylesheet">
-        <script type="text/javascript" src="./scripts/script.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <p>DORY HIDE AND SEEK</p>
-        </header>
-        <div class="instructions">
-            <p class="instructions-title">Instructions</p>
-            <table class="instructions-table">
-                <tr>
-                    <td class="instruction-number">1</td>
-                    <td class="instruction-text">Click the tiles to see what kind of Dory is hiding under the tile.</td>
-                </tr>
-                <tr>
-                    <td class="instruction-number">2</td>
-                    <td class="instruction-text">If you find pizza Dory, you win!</td>
-                </tr>
-                <tr>
-                    <td class="instruction-number">3</td>
-                    <td class="instruction-text">If you find Dory on a scratcher, you lose.</td>
-                </tr>
-                <tr>
-                    <td class="instruction-number">4</td>
-                    <td class="instruction-text">Have fun!</td>
-                </tr>
-            </table>
+
+<head>
+    <title>Hide and Seek</title>
+    <link href="./styles/styles.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./scripts/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div id="home">
+            <div class="home-title">
+                <h1>Hide and Seek</h1>
+                <h2>Play the tile matching game with Dory</h2>
+            </div>
+            <div class="home-buttons">
+                <button type="button" id="start-button">START GAME</button>
+                <button type="button" class="instructions-button">VIEW INSTRUCTIONS</button>
+            </div>
         </div>
-        <div id="spot-container">
+        <div id="game">
+            <div class="game-header">
+                <div class="score">
+                    <p>Score: 0</p>
+                </div>
+                <div id="lives-container">
+                </div>
+            </div>
+            <div id="tiles-container">
+            </div>
         </div>
-        <div class="start-row">
-            <button class="start-button">START GAME</button>
-        </div>
-    </body>
-    </html>
+    </main>
+</body>
+
+</html>
+
 </html>
